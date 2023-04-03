@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.titulo {
+    font-size: 10px;
+}
+.sub_titulo {
+    font-size: 10px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: #000000;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +48,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background.jpg');
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,4 +107,8 @@ nav li a:hover{
     100%{
         transform: scale(1);
     }
+}
+
+.sobre{
+    color: #000000;
 }
