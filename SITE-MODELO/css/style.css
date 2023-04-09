@@ -13,7 +13,7 @@
 }
 nav{
     background-color: #000000;
-    padding: 10px 60px;
+    padding: 5px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +49,43 @@ nav li a:hover{
 .banner{
     height: 100vh;
     background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bannerpreço{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ preço.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.bannerserviço {
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ serviço.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bannersobre{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ sobre.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,4 +148,14 @@ nav li a:hover{
 
 .sobre{
     color: #000000;
+}
+
+.texto {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.download {
+    background: url('../img/fundo\ serviço.jpg');
 }
