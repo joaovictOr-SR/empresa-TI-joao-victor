@@ -42,12 +42,12 @@ nav li a{
     border-radius: 5px;
     transition: 0.3s;
 }
-nav li a:hover{
+nav li a:hover,nav li a.active{
     background-color: white;
     color: black;
 }
 .banner{
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo.jpg');
     background-size: cover;
     background-position: center;
@@ -59,7 +59,7 @@ nav li a:hover{
 }
 
 .bannerpreço{
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ preço.jpg');
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@ nav li a:hover{
 }
 
 .bannerserviço {
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ serviço.jpg');
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ nav li a:hover{
 }
 
 .bannersobre{
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/fundo\ sobre.jpg');
     background-size: cover;
     background-position: center;
@@ -154,8 +154,31 @@ nav li a:hover{
     color: #fff;
     font-size: 30px;
     font-weight: 600;
+    padding: 0 50px;
 }
 
-.download {
-    background: url('../img/fundo\ serviço.jpg');
-}
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:400px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  #divBusca img{
+    width: 20px
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
